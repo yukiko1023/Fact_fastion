@@ -1,12 +1,27 @@
-body {
-  width: 80%;
-}
-
 #header {
   z-index: 9;
   position: fixed;
   padding: 0 20px;
   width: 90%;
   text-align: right;
+}
+
+.main-img2 {
+  max-width: 60%;
+}
+
+.main-img1 {
+  max-width: 60%;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+
+.bg-color {
+  background-color: #4682b4;
+  height: 800px;
+  width: 40%;
+  float: left;
+  position: relative;
 }
 /*# sourceMappingURL=style.css.map */
