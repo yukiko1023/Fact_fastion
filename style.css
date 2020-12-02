@@ -1,0 +1,10 @@
+.header {
+  opacity: 0;
+  z-index: 9;
+}
+
+.header-logo {
+  float: right;
+  padding-right: 10px;
+}
+/*# sourceMappingURL=style.css.map */
