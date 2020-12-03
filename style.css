@@ -38,4 +38,21 @@ body {
   margin-top: 10px;
   padding: 20px;
 }
+
+.about {
+  background-color: #ec6013;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: relative;
+  float: right;
+}
+
+.about p {
+  position: absolute;
+  top: 33%;
+  left: 34%;
+  font-size: 18px;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
