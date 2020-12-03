@@ -51,3 +51,10 @@ body {
     color: white;
   }
 }
+.new_collection{
+  clear: both;
+  & img{
+    width: 50%;
+    
+  }
+}

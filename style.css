@@ -55,4 +55,12 @@ body {
   font-size: 18px;
   color: white;
 }
+
+.new_collection {
+  clear: both;
+}
+
+.new_collection img {
+  width: 50%;
+}
 /*# sourceMappingURL=style.css.map */
