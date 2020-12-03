@@ -59,6 +59,7 @@ body {
   border-radius: 50%;
   position: relative;
   float: right;
+  margin-right: 50px;
 }
 
 .about p {
