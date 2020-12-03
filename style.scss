@@ -1,26 +1,38 @@
-
-#header{
+body {
+  margin: 0;
+}
+#header {
+  color: brown;
   z-index: 9;
   position: fixed;
-  padding: 0 20px;
-  width: 90%;
+  width: 100%;
   text-align: right;
+  & .header-logo {
+    margin: 5px 20px;
+  }
 }
-.main-img2{
-  max-width: 60%;
+.main-img2 {
+  max-width: 50%;
 }
 
-.main-img1{
+.main-img1 {
   max-width: 60%;
   position: absolute;
-  top: 25%;
+  top: 20%;
   left: 20%;
 }
 
-.bg-color{
+.bg-color {
   background-color: #4682b4;
-  height: 800px;
+  height: 600px;
   width: 40%;
   float: left;
   position: relative;
+}
+.philosophy {
+  clear: both;
+  margin-top: 10px;
+  padding: 20px;
+
+  
 }
