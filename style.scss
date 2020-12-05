@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  min-width: 500px;
 }
 #header {
   color: brown;
@@ -38,6 +37,7 @@ body {
   padding: 20px;
   width: 50%;
   margin: 0 auto;
+  line-height: 200%;
 }
 
 .main-logo{
@@ -86,4 +86,15 @@ body {
 
 .company{
   clear: both;
+  width: 50%;
+  margin: 0 auto;
+  line-height: 200%;
+}
+
+.line-1, .line-2{
+  width: 100%;
+  display: flex;
+  & img{
+    width: 70%;
+  }
 }
