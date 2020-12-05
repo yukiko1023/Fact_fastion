@@ -72,9 +72,31 @@ body {
 
 .new_collection {
   clear: both;
+  width: 100%;
 }
 
 .new_collection img {
-  width: 50%;
+  width: 100%;
+}
+
+.new_collection .img-1 {
+  float: left;
+  width: 40%;
+  padding-left: 30px;
+}
+
+.new_collection .img-2 {
+  float: right;
+  width: 40%;
+  margin-top: 200px;
+  padding-right: 30px;
+}
+
+.new_collection h2 {
+  text-align: center;
+}
+
+.company {
+  clear: both;
 }
 /*# sourceMappingURL=style.css.map */

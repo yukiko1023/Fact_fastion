@@ -64,7 +64,26 @@ body {
 }
 .new_collection {
   clear: both;
-  & img {
-    width: 50%;
+  width: 100%;
+  & img{
+    width: 100%;
   }
+  & .img-1{
+    float: left;
+    width: 40%;
+    padding-left: 30px;
+  }
+  & .img-2{
+    float: right;
+    width: 40%;
+    margin-top: 200px;
+    padding-right: 30px;
+  }
+  & h2{
+    text-align: center;
+  }
+}
+
+.company{
+  clear: both;
 }
